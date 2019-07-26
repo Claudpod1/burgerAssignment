@@ -1,12 +1,38 @@
-<div class="container">
-  <div class="jumbotron text-center">
-      <h1>Burger Choice</h1>
-      <h5>You can pick a burger of your liking or make one. You decide which burger you would like to consume. </h5>
-      
+<h1>burgers!</h1>
+
+<h2>burgers that are not devoured!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#unless devoured}}
+      {{> burgers/burgers-block devoured=false}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>burgers that are devoured!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> burgers/burgers-block devoured=true}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+<h2>Add a burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">burger Name:</label>
+    <input type="text" id="ca" name="name">
   </div>
 
-  <div class="row">
-    <div class="col-sm-6">
+  <div class="form-group">
+    <label for="devoured">devoured?</label><br>
+    <input type="radio" name="devoured" value="1" checked> devoured!<br>
+    <input type="radio" name="devoured" value="0"> Awake
+  </div>
 
-   
-</div>
+  <button type="submit">Add burger</button>
+</form>
