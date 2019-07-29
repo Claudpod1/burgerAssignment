@@ -1,3 +1,19 @@
 body {
-    background: blueviolet;
+    background:whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+   color: teal;
+   margin: 10px
+}
+
+.photoOnBackground {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZl4tOjGcqE4kCZ4MVYBz2Qw8f6NvrVPmGEuWTCUAXEIFyOUkXCw);
+}
+
+.jumbotron {
+    border: silver;
+    border: 10px;
+    background-color: turquoise;
+    color: whitesmoke
+
 }
