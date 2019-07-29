@@ -11,7 +11,9 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 Your app will store every burger in a database, whether devoured or not.
 
 
-<img src ="burgerassign.png">
+
+<img width="1159" alt="burgerassign" src="https://user-images.githubusercontent.com/48806630/62018262-3af6fb00-b177-11e9-8fb7-0c71d3af23c0.png">
+
 
 <b> Functionality </b>
 
