@@ -1,4 +1,4 @@
-<b> Homework: Create a burger logger.
+<b> Homework: Create a burger logger.</b>
 
 # Burger_Logger
 
