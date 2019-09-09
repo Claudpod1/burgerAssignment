@@ -1,6 +1,13 @@
-Burger Application 
+<b> Homework: Create a burger logger.
 
-<b> The Objective </b>
+# Burger_Logger
+
+<b> The 12th homework assignment covering MySQL, Node, Express, Handlebars, and a ORM. </b>
+
+<img width="1159" alt="burgerassign" src="https://user-images.githubusercontent.com/48806630/62018262-3af6fb00-b177-11e9-8fb7-0c71d3af23c0.png">
+
+
+<b> About </b>
 
 Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
@@ -9,10 +16,6 @@ Whenever a user submits a burger's name, your app will display the burger on the
 Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 
 Your app will store every burger in a database, whether devoured or not.
-
-
-
-<img width="1159" alt="burgerassign" src="https://user-images.githubusercontent.com/48806630/62018262-3af6fb00-b177-11e9-8fb7-0c71d3af23c0.png">
 
 
 <b> Functionality </b>
